@@ -213,7 +213,7 @@ body {
   border-bottom: 3px solid var(--color4);
 }
 
-.project-tile a,
+.project-tile a ,
 #profile-link {
   color: white;
   text-decoration: none;
@@ -222,8 +222,12 @@ body {
   padding: 1rem 2rem;
   margin: 0 10px;
   border-radius: 8px;
-
   transition: 1s;
+}
+.project-tile .linkPassword {
+  display: block;
+  width: 200px;
+  text-align: center;
 }
 .project-tile a:hover {
   background-color: var(--color3);
@@ -289,7 +293,7 @@ body {
   margin-bottom: 20px;
 }
 
-@media screen and (max-width: 767px) {
+@media (max-width: 860px) {
   #about {
     padding: 0 2rem;
     display: grid;
@@ -322,6 +326,9 @@ body {
     position: absolute;
     z-index: 1;
     text-align: center;
+  }
+  body {
+    font-size: 40px;
   }
 }
 
